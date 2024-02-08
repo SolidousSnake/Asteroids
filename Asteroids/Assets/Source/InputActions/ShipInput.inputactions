@@ -1,0 +1,122 @@
+{
+    "name": "ShipInput",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "f9b90115-5489-4012-81ac-67a33988d5ba",
+            "actions": [
+                {
+                    "name": "Rotation",
+                    "type": "Button",
+                    "id": "e49e6e33-1992-4c98-a975-92d72944c741",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "UsePrimaryWeapon",
+                    "type": "Button",
+                    "id": "bb6a8dc5-1147-40d3-b01c-ddd5137aeaa2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "UseSecondaryWeapon",
+                    "type": "Button",
+                    "id": "a5714d88-af6d-4772-a8f0-d219a0949247",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Accelerate",
+                    "type": "Button",
+                    "id": "023db027-1b6a-42a4-bf33-37eefa1d8269",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "1D Axis",
+                    "id": "112b2172-1ee4-4cce-834c-c351ae8dfb90",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotation",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "ec4e4192-5bf2-4ad9-bcc4-1c96c178400f",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PcInput",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "4d7de046-9701-4bb6-8b62-eb7e5caa2d4a",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PcInput",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "f2f49fdc-dfdb-4057-be86-205597b48df3",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PcInput",
+                    "action": "UsePrimaryWeapon",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fc4643fb-ea26-46c2-9231-692e239e2c47",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PcInput",
+                    "action": "UseSecondaryWeapon",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fae3535b-a824-4075-81d9-1345517111c4",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PcInput",
+                    "action": "Accelerate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "PcInput",
+            "bindingGroup": "PcInput",
+            "devices": []
+        }
+    ]
+}
